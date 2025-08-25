@@ -25,10 +25,10 @@ Simply visit **[Online Compass](https://onlinecompass.me)** - no download requir
 ### Option 2: Run Locally
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/online-compass.git
+git clone https://github.com/injec/onlineCompass.me.git
 
 # Navigate to project directory
-cd online-compass
+cd onlineCompass.me
 
 # Open in browser
 open index.html
