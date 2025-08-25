@@ -1,0 +1,318 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Outer circle with degree markings -->
+  <circle cx="250" cy="250" r="240" fill="none" stroke="#1a3a4a" stroke-width="2"/>
+  
+  <!-- Degree markings -->
+  <g id="degree-marks">
+    <!-- Major degree marks (every 10 degrees) -->
+    <g id="major-marks">
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(0 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(10 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(20 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(30 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(40 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(50 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(60 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(70 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(80 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(90 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(100 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(110 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(120 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(130 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(140 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(150 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(160 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(170 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(180 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(190 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(200 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(210 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(220 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(230 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(240 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(250 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(260 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(270 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(280 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(290 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(300 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(310 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(320 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(330 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(340 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="30" stroke="#8ecae6" stroke-width="2" transform="rotate(350 250 250)"/>
+    </g>
+
+    <!-- Minor degree marks (every 2 degrees) -->
+    <g id="minor-marks">
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(2 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(4 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(6 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(8 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(12 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(14 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(16 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(18 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(22 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(24 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(26 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(28 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(32 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(34 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(36 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(38 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(42 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(44 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(46 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(48 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(52 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(54 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(56 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(58 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(62 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(64 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(66 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(68 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(72 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(74 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(76 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(78 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(82 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(84 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(86 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(88 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(92 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(94 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(96 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(98 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(102 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(104 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(106 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(108 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(112 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(114 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(116 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(118 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(122 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(124 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(126 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(128 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(132 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(134 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(136 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(138 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(142 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(144 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(146 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(148 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(152 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(154 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(156 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(158 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(162 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(164 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(166 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(168 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(172 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(174 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(176 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(178 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(182 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(184 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(186 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(188 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(192 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(194 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(196 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(198 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(202 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(204 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(206 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(208 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(212 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(214 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(216 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(218 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(222 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(224 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(226 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(228 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(232 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(234 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(236 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(238 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(242 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(244 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(246 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(248 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(252 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(254 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(256 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(258 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(262 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(264 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(266 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(268 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(272 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(274 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(276 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(278 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(282 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(284 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(286 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(288 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(292 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(294 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(296 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(298 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(302 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(304 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(306 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(308 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(312 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(314 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(316 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(318 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(322 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(324 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(326 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(328 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(332 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(334 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(336 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(338 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(342 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(344 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(346 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(348 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(352 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(354 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(356 250 250)"/>
+      <line x1="250" y1="10" x2="250" y2="20" stroke="#4a7c94" stroke-width="1" transform="rotate(358 250 250)"/>
+    </g>
+  </g>
+
+  <!-- Degree numbers -->
+  <g id="degree-numbers" font-family="Arial, sans-serif" font-size="18" fill="#dadada" font-weight="bold">
+    <text x="250" y="55" text-anchor="middle" transform="rotate(0 250 250)">0</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(20 250 250)">20</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(40 250 250)">40</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(60 250 250)">60</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(80 250 250)">80</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(100 250 250)">100</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(120 250 250)">120</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(140 250 250)">140</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(160 250 250)">160</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(180 250 250)">180</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(200 250 250)">200</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(220 250 250)">220</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(240 250 250)">240</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(260 250 250)">260</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(280 250 250)">280</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(300 250 250)">300</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(320 250 250)">320</text>
+    <text x="250" y="55" text-anchor="middle" transform="rotate(340 250 250)">340</text>
+  </g>
+
+  <!-- Inner decoration with radial lines -->
+  <g id="inner-decoration">
+    <circle cx="250" cy="250" r="170" fill="none" stroke="#4a7c94" stroke-width="3"/>
+    <circle cx="250" cy="250" r="160" fill="none" stroke="#4a7c94" stroke-width="1.5"/>
+    <circle cx="250" cy="250" r="150" fill="none" stroke="#4a7c94" stroke-width="1"/>
+    
+    <!-- Radial decorative lines -->
+    <g id="radial-lines">
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(0 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(15 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(30 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(45 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(60 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(75 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(90 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(105 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(120 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(135 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(150 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(165 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(180 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(195 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(210 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(225 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(240 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(255 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(270 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(285 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(300 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(315 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(330 250 250)"/>
+      <line x1="250" y1="80" x2="250" y2="170" stroke="#4a7c94" stroke-width="1.5" transform="rotate(345 250 250)"/>
+    </g>
+    
+    <!-- Decorative dots -->
+    <g id="decorative-dots">
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(7.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(22.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(37.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(52.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(67.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(82.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(97.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(112.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(127.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(142.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(157.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(172.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(187.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(202.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(217.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(232.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(247.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(262.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(277.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(292.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(307.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(322.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(337.5 250 250)"/>
+      <circle cx="250" cy="175" r="2.5" fill="#4a7c94" transform="rotate(352.5 250 250)"/>
+    </g>
+  </g>
+
+  <!-- Compass needle with improved design -->
+  <g id="compass-needle">
+    <!-- North Pointer (Red) - Made longer -->
+    <path d="M250,250 L225,110 L250,60 L275,110 Z" fill="#ff4d5e" stroke="#1a3a4a" stroke-width="1.5"/>
+    
+    <!-- South Pointer (Blue) - Made longer -->
+    <path d="M250,250 L225,390 L250,440 L275,390 Z" fill="#56a5d8" stroke="#1a3a4a" stroke-width="1.5"/>
+    
+    <!-- East Pointer -->
+	<path d="M250,250 L390,230 L440,250 L390,270 Z" fill="#ffdf7f" stroke="#1a3a4a" stroke-width="1.5"/>
+
+	<!-- West Pointer -->
+	<path d="M250,250 L110,230 L60,250 L110,270 Z" fill="#06f0aa" stroke="#1a3a4a" stroke-width="1.5"/>
+    
+    <!-- Center cap -->
+    <circle cx="250" cy="250" r="15" fill="#e5e5e5" stroke="#1a3a4a" stroke-width="1.5"/>
+    <circle cx="250" cy="250" r="10" fill="#c5c5c5" stroke="#1a3a4a" stroke-width="0.75"/>
+    <circle cx="250" cy="250" r="5" fill="#1a3a4a"/>
+    
+    <!-- Subtle shadow effect -->
+    <ellipse cx="250" cy="253" rx="14" ry="3" fill="rgba(0,0,0,0.1)"/>
+  </g>
+  
+  <!-- Cardinal directions (larger and more stylized) - MOVED ON TOP -->
+  <g id="cardinal-directions" font-family="Georgia, serif" font-weight="bold">
+    <!-- Add white background to make text more visible -->
+    <text x="250" y="130" text-anchor="middle" font-size="28" fill="#dadada" stroke="#121212" stroke-width="6" stroke-opacity="0.8" paint-order="stroke" transform="rotate(0 250 250)">N</text>
+    <text x="390" y="260" text-anchor="middle" font-size="28" fill="#dadada" stroke="#121212" stroke-width="6" stroke-opacity="0.8" paint-order="stroke" transform="rotate(0 250 250)">E</text>
+    <text x="250" y="400" text-anchor="middle" font-size="28" fill="#dadada" stroke="#121212" stroke-width="6" stroke-opacity="0.8" paint-order="stroke" transform="rotate(0 250 250)">S</text>
+    <text x="110" y="260" text-anchor="middle" font-size="28" fill="#dadada" stroke="#121212" stroke-width="6" stroke-opacity="0.8" paint-order="stroke" transform="rotate(0 250 250)">W</text>
+    
+    <!-- Intercardinal directions (smaller) with background -->
+    <text x="350" y="155" text-anchor="middle" font-size="22" fill="#dadada" stroke="#121212" stroke-width="5" stroke-opacity="0.8" paint-order="stroke" transform="rotate(0 250 250)">NE</text>
+    <text x="355" y="355" text-anchor="middle" font-size="22" fill="#dadada" stroke="#121212" stroke-width="5" stroke-opacity="0.8" paint-order="stroke" transform="rotate(0 250 250)">SE</text>
+    <text x="145" y="355" text-anchor="middle" font-size="22" fill="#dadada" stroke="#121212" stroke-width="5" stroke-opacity="0.8" paint-order="stroke" transform="rotate(0 250 250)">SW</text>
+    <text x="155" y="160" text-anchor="middle" font-size="22" fill="#dadada" stroke="#121212" stroke-width="5" stroke-opacity="0.8" paint-order="stroke" transform="rotate(0 250 250)">NW</text>
+  </g>
+</svg>

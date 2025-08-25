@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>OnlineCompass.me</title>
+    <link href="output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 transition-colors duration-500">
+    <div class="min-h-screen flex flex-col">
+        <!-- Compass Permission Card Component - Light/Dark Compatible -->
+        <div id="compass-permission-control" class="hidden mx-auto z-30 my-0 md:my-4 rounded-lg shadow-md max-w-lg w-full overflow-hidden bg-white dark:bg-gray-800 transition-colors duration-200 fixed bottom-0 left-0 right-0 md:mx-auto">
+            <!-- Card Header -->
+            <div class="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700">
+                <div class="flex items-center">
+                    <div class="bg-blue-100 dark:bg-blue-900 rounded-full p-2 mr-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 dark:text-blue-400" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <h3 class="font-semibold text-gray-700 dark:text-gray-200">Compass Access Required</h3>
+                </div>
+                <!-- X/Close Button (visible on all devices) -->
+                <button id="close-btn" class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+        
+            <!-- Card Body -->
+            <div class="p-4">
+                <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                    This tool needs to access your device's compass and location sensor to provide direction and navigation features.
+                </p>
+
+                  <!-- Alert Box Added at Bottom of Card -->
+                    <div id="permissinStatusBox" class="hidden mt-2 mb-2 p-3 bg-yellow-50 dark:bg-yellow-900/30 border border-yellow-200 dark:border-yellow-800 rounded-md">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-500 dark:text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <p id="permissinStatusMsg" class="text-xs text-yellow-700 dark:text-yellow-300">
+                                    Without compass access, navigation features will be limited. Your location data is only used locally and never stored on our servers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            
+                <!-- Action Buttons -->
+                <div class="flex justify-center space-x-2">
+                    <button id="access-btn" class="px-4 py-2 text-sm bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-white font-medium rounded transition duration-150 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 focus:ring-opacity-50">
+                        Allow Access
+                    </button>
+                    <!-- Text "Close" button (visible on mobile only) -->
+                    <button id="close-text-btn" class="px-4 py-2 text-sm bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 font-medium rounded transition duration-150 focus:outline-none focus:ring-2 focus:ring-gray-500 dark:focus:ring-gray-400 focus:ring-opacity-50">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="flex-grow container mx-auto px-4 py-8">
+            <h1 class="text-2xl text-center font-bold mb-4 text-gray-800 dark:text-gray-100">OnlineCompass.me</h1>
+            <!-- Compass Display -->
+            <div class="flex justify-center mb-10">
+                <div class="compass-container">
+                    <img src="compass-design-light.svg" alt="Compass" class="compass" id="compass">
+                    <div class="compass-info my-2 dark:text-gray-100" id="heading">Heading: 0°</div>
+                </div>
+            </div>
+
+            
+
+            <!-- Compass Info and Controls -->
+            <div class="mb-6 text-center">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 max-w-xl mx-auto mb-4">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-3 shadow text-gray-800 dark:text-gray-100 transition-colors duration-500">
+                        <p class="text-sm font-medium">Direction:</p>
+                        <p id="direction-text" class="text-lg font-bold">N</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-3 shadow text-gray-800 dark:text-gray-100 transition-colors duration-500">
+                        <p class="text-sm font-medium">Latitude:</p>
+                        <p id="latitude-text" class="text-lg font-bold">Need Location Permission</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-3 shadow text-gray-800 dark:text-gray-100 transition-colors duration-500">
+                        <p class="text-sm font-medium">Longitude:</p>
+                        <p id="longitude-text" class="text-lg font-bold">Need Location Permission</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-3 shadow text-gray-800 dark:text-gray-100 transition-colors duration-500">
+                        <p class="text-sm font-medium">Accuracy:</p>
+                        <p id="accuracy-text" class="text-lg font-bold">Need Location Permission</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-3 shadow text-gray-800 dark:text-gray-100 transition-colors duration-500">
+                        <p class="text-sm font-medium">Altitude:</p>
+                        <p id="altitude-text" class="text-lg font-bold">Need Location Permission</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-3 shadow text-gray-800 dark:text-gray-100 transition-colors duration-500">
+                        <p class="text-sm font-medium">Altitude Accuracy:</p>
+                        <p id="altitude-accuracy-text" class="text-lg font-bold">Need Location Permission</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-3 shadow text-gray-800 dark:text-gray-100 transition-colors duration-500">
+                        <p class="text-sm font-medium">Heading:</p>
+                        <p id="heading-text" class="text-lg font-bold">Need Location Permission</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-3 shadow text-gray-800 dark:text-gray-100 transition-colors duration-500">
+                        <p class="text-sm font-medium">Speed:</p>
+                        <p id="speed-text" class="text-lg font-bold">Need Location Permission</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>OnlineCompass.me</h2>
+                    <p>Your browser-based compass and GPS tool.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- OnlineCompass.me -->
+    <script src="main.js"></script>
+</body>
+</html>
